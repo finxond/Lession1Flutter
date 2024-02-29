@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
        home: Scaffold( 
         appBar: AppBar( 
           title: const Text('Column'), 
-          ), 
+          ),
           body: 
           Center( child: 
           Column( mainAxisAlignment: 
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15), ), 
                 child: const Center( 
                   child: 
-                Text('Строка 1', 
+                Text('Кнопка 1', 
                 textAlign: TextAlign.center, 
                 style: TextStyle(
                   color: Colors.white, 
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                        child: 
                        const Center( 
                         child: 
-                        Text('Строка 2', 
+                        Text('Кнопка 2', 
                         textAlign: TextAlign.center, 
                         style: TextStyle(color: Colors.white, 
                         fontWeight: FontWeight.bold,
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                              ), 
                              child: 
                              const Center( child: 
-                             Text('Строка 3', 
+                             Text('Кнопка 3', 
                              textAlign: TextAlign.center, 
                              style: TextStyle(
                               color: Colors.white, 
@@ -82,10 +82,10 @@ class MyApp extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(15), 
                                   ), 
                                   child: const Center( 
-                                    child: Text('Строка 4', 
+                                    child: Text('Кнопка 4', 
                                     textAlign: TextAlign.center, 
                                     style: TextStyle(
-                                      color: Colors.white, 
+                                      color: Colors.black, 
                                     fontWeight: FontWeight.bold
                                     ), 
                                     ), 
@@ -100,7 +100,7 @@ class MyApp extends StatelessWidget {
                                       borderRadius: BorderRadius.circular(15), 
                                       ), 
                                       child: const Center( 
-                                        child: Text('Строка 5', 
+                                        child: Text('Кнопка 5', 
                                         textAlign: TextAlign.center, 
                                         style: TextStyle(
                                           color: Color.fromARGB(255, 0, 0, 0), 
